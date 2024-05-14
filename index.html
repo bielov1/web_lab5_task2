@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Завдання №2</title>
+        <link rel="stylesheet" type="" href="styles.css"/>
+        <script defer src="./script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Реєстрація</h1>
+            <hr>
+            <div class="info">
+                <label for="email_input">Пошта <span style="color:red">*</span></label>
+                <input type="text" id="email_input"/>
+                <p id="email_complain"></p>
+        
+                <label for="date_input">Дата народження <span style="color:red">*</span></label>
+                <input type="date" id="date_input"/>
+                <p id="date_complain"></p>
+        
+                <label for="password_input">Пароль <span style="color:red">*</span></label>
+                <input type="password" id="password_input"/>
+                <p id="password_complain"></p>
+    
+                <label for="corfirm_password_input">Повторення пароля <span style="color:red">*</span></label>
+                <input type="password" id="corfirm_password_input"/>
+                <p id="confirm_password_complain"></p>
+            </div>
+
+            <button onclick="verification()">Зареєструватися</button>
+        </div>
+    </body>
+</html>
